@@ -76,7 +76,7 @@ cover: https://z3.ax1x.com/2021/01/30/yka3j0.jpg
 - 部署到git端
     参考资料[XJHui](https://www.cnblogs.com/ldu-xingjiahui/p/12594025.html)
     1. 安装git插件
-        ``` npm install --save hexo-developer-git```
+        ```npm install --save hexo-deployer-git```
     2. 修改配置文件
         ```
         vi _config.yml <- 在最先面添加以下设置
