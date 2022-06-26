@@ -14,7 +14,7 @@ email: "huang.ming11@163.com"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://192.168.2.16:4000
+url: https://styxhuang.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
