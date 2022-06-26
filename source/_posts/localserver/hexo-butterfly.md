@@ -73,6 +73,8 @@ cover: https://z3.ax1x.com/2021/01/30/yka3j0.jpg
         - 然后在文章中引用例如`![demo](demo.jpg)`。这里只需要填写文件名，不需要写其他的相对路径，插件会在`hexo g`过程中自动补全相对路径。需要在_post建立子文件夹，并且子文件夹需要回避一些关键词，比如日期(2020, 2022等)，server。我测试出来这两个，如果使用这两个，hexo-asset-image做路径替代和补全的时候会出现问题
         ![demo](demo.jpg)
 
+        - 这种方法有严重的bug，因为要开启```relative_path = true```。测试发现会导致链接混乱，无法定位到主页面。无论怎么设置root或者url。所以还是用第一种办法吧，笨就笨点。
+
 - 部署到git端
     参考资料[XJHui](https://www.cnblogs.com/ldu-xingjiahui/p/12594025.html)
     1. 安装git插件
